@@ -1,0 +1,24 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Background color for the navbar */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Add padding for better spacing */
+}
+
+.navbar-left h1 {
+    margin: 0; /* Remove default margin */
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+.navbar-right a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Text color for links */
+    margin-left: 10px; /* Add margin between links */
+}

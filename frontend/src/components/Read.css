@@ -1,0 +1,18 @@
+.read ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.read li {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.read h3 {
+    margin: 0;
+}
+
+.read p {
+    margin: 5px 0;
+}

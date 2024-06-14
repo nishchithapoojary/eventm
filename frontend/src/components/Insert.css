@@ -1,0 +1,92 @@
+.insert-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.form-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.form-heading {
+  height: 50px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+  background-color: #007bff;
+  color: white; /* Add this line to make the text color white */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.insert-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-group label {
+  width: 40%;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 55%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+.button-group {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px; /* Add some space between the buttons */
+}
+
+.insert-button,
+.back-button {
+  padding: 5px 20px;
+  height: 30px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.insert-button {
+  background-color: #4caf50;
+  color: white;
+  
+}
+
+.insert-button:hover {
+  background-color: #388e3c;
+}
+
+.back-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.back-button:hover {
+  background-color: #d32f2f;
+}
